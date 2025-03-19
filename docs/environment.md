@@ -14,4 +14,4 @@ Stylesheets and other assets can be imported. See `jest.config.js` and the `__mo
 
 The web preview environment uses Sandpack to bundle assets. The `package.json` file is used to determine what gets loaded into this environment. There are no special config files, everything is inferred from `package.json`.
 
-Customization is possible here, though you need to be careful not to use different versions within the web preview environment than what is loaded within the test environment. In some cases you can load additional dependencies if it is only cosmetic (styling) or meant for building preview assets, but those dependencies may not be available within the runner environment and can cause issues with your tests.
+Customization is possible here, though you need to be careful not to use different versions within the web preview environment than what is loaded within the test environment. In some cases you can load additional dependencies if it is only cosmetic (styling) or meant for building preview assets, but those dependencies may not be available within the runner environment and can cause issues with your   tests.

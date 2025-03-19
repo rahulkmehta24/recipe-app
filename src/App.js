@@ -18,7 +18,7 @@ function App() {
  
   return (
     <div className="App">
-      <header><h1>Delicious Food Recipes</h1></header>
+      <header><h1>Food Recipes</h1></header>
       <RecipeList recipes={recipes} onDelete={deleteRecipe} />
       <RecipeCreate onAdd={addRecipe} />
     </div>
